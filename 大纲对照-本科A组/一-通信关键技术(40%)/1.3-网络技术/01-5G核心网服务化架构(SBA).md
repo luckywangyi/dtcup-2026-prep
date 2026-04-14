@@ -5,6 +5,40 @@
 
 ---
 
+## 知识导图
+
+```mermaid
+mindmap
+  root((5G核心网SBA))
+    SBA概念
+      NF以服务形式暴露能力
+      HTTP/2 + JSON + OpenAPI
+      松耦合 可编排
+    vs传统EPC
+      点对点→服务调用
+      静态配置→NRF发现
+      接口中心→API中心
+    NRF服务注册发现
+      注册 NF身份/地址
+      发现 按条件查询
+      更新/去注册
+    核心网元
+      AMF 接入移动性/NAS终结
+      SMF 会话管理/IP分配
+      UPF 用户面转发锚点
+      AUSF 鉴权
+      UDM 签约数据
+      PCF 策略控制
+      NSSF 切片选择
+      NRF 服务目录
+      NEF 能力开放
+    关键接口
+      服务化接口 Namf/Nsmf等
+      参考点接口 N1-N6
+```
+
+---
+
 ## 核心知识点
 
 ### 一、SBA（Service Based Architecture）概念

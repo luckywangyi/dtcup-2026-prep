@@ -5,6 +5,39 @@
 
 ---
 
+## 知识导图
+
+```mermaid
+mindmap
+  root((SDN与NFV))
+    SDN三层
+      应用层 北向API
+      控制层 SDN控制器
+      基础设施层 转发面
+    OpenFlow
+      典型南向协议
+      控制器→交换机流表
+    NFV三件套
+      NFVI 计算/存储/网络+虚拟化
+      VNF 虚拟化网络功能
+      MANO 管理与编排
+    核心价值
+      软硬件解耦
+      弹性伸缩
+      快速上线
+    SDN vs NFV
+      NFV 网元在哪跑
+      SDN 流量怎么调
+      可协同不等同
+    5G应用
+      核心网云化 VNF/CNF
+      切片编排 MANO+SDN
+      传输网SDN化
+      MEC UPF下沉
+```
+
+---
+
 ## 核心知识点
 
 ### 一、SDN（Software Defined Networking）三层架构

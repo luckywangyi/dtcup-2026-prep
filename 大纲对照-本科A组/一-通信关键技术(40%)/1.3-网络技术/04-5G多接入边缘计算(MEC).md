@@ -5,6 +5,37 @@
 
 ---
 
+## 知识导图
+
+```mermaid
+mindmap
+  root((MEC边缘计算))
+    概念
+      计算存储下沉到边缘
+      Multi-access Edge Computing
+      低时延 高带宽效率
+    架构
+      MEC平台MEP 服务注册/API
+      MEC应用 CDN/质检/V2X
+      UPF下沉 本地锚点
+    本地分流
+      ULCL 上行分类
+      BP 下行分支
+      近端UPF+分流规则
+    平台能力
+      无线网络信息
+      位置服务
+      带宽管理/DNS分流
+      用户轨迹变化
+    应用场景
+      AR/VR 云游戏
+      工业控制 质检
+      V2X 路侧融合
+      园区/港口安防
+```
+
+---
+
 ## 核心知识点
 
 ### 一、MEC（Multi-access Edge Computing）概念
